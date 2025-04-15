@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    
+
+}
+
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#websiteOverlay{ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999;
+    background-color:#121212;
+    color:white;
+    opacity: 0;
+    -webkit-animation: fadeOut 1.5s forwards;
+    animation: fadeOut 1.5s forwards;
+     
+}
+
+
+
+.loader-icon{
+    width: 3em;
+    height: 3em;
+    box-shadow: 0 0 15px #ffd04e;
+    border-radius: 50%;
+    border: 0.40em solid white;
+    border-top-color: #ffd04e; 
+    -webkit-animation: loader 1.5s linear infinite;
+    animation: loader 1.5s linear infinite;
+}
+
+@-webkit-keyframes loader{
+    0% {
+        transform: rotate(0deg);
+        opacity: 1;
+      }
+      100% {
+        transform: rotate(360deg);
+        opacity: 0;
+      }
+    }
+
+
+@keyframes loader{
+    0% {
+        transform: rotate(0deg);
+        opacity: 1;
+      }
+      100% {
+        transform: rotate(360deg);
+        opacity: 0;
+      }
+    }
+
+
+@-webkit-keyframes fadeOut {
+    0% , 50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        
+    }
+}
+@keyframes fadeOut {
+    0% , 50%{
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    
+}
+
+body{
+    /* This style below will be inherited*/
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    background-color: black;
+    padding-top: 15%;
+    padding-bottom: 1%;
+    
+    
+    
+
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}

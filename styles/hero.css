@@ -1,0 +1,309 @@
+
+section{
+    background-color: #191919;
+    background: repeating-linear-gradient( 45deg, #000000, #000000 5px, #191919 5px, #191919 25px );
+    padding-top: 3%;
+    padding-bottom: 1px;
+    
+}
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    color: white;
+    margin: 5%;
+    
+    
+
+}
+
+
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    
+    
+   
+  
+}
+
+.hero-title{
+    font-size: 3rem;
+    font-family: poppins-extralight, poppins,Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: left;
+    text-wrap: nowrap;
+   
+}
+
+.hero-paragrahp{
+    font-size: 1.3rem;
+    line-height: 2;
+    text-align: justify;
+    margin-bottom: 5%;
+    font-weight: lighter;
+}
+
+
+.right-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    
+    
+}
+.hero-pic{
+    width: 323px;
+    height: 323px;
+    object-fit: contain;
+}
+
+.resume-btn, .github-btn{
+    border: none;
+    outline: 3px white solid;
+    background-color: #191919;
+    color: white;
+    padding: 3% 5%;
+    text-wrap: nowrap;
+    cursor: pointer;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    vertical-align: top;
+    text-decoration: none;
+    transition: background-color 0.40s ease, color 0.40s ease, transform 0.2s ease;
+}
+
+.github-btn{
+    background-color: #ffd04e;
+    font-size: 1.3rem;
+    text-wrap: nowrap;
+    color: #000;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease , color 0.2s ease, transform 0.2s ease;
+    margin-top: 5%;
+}
+
+.resume-btn:hover{
+    color: #191919;
+    background-color: white;
+}
+
+.resume-btn:active{
+    transform: scale(0.95);
+    opacity: 0.7;
+
+}
+
+.github-btn:hover{
+    background-color: #000;
+    color: #ffd04e;
+    border: none;
+    outline: 1px solid #ffd04e;
+}
+
+.github-btn:active{
+    opacity: 0.7;
+    transform: scale(0.97);
+}
+
+@media screen and (min-width: 1067px) {
+    section{
+        margin-top: -115px;
+    }
+}
+
+@media screen and (min-width: 966px) and (max-width: 1066px){
+   
+    .hero-pic{
+        margin-left: 5%;
+    }
+
+    section{
+        margin-top: -75px;
+    }
+
+    
+    
+}
+
+
+@media screen and (min-width:751px) and (max-width: 959px){
+    section{
+        margin-top: -60px;
+    }
+
+    .hero{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        color: white;
+        margin: 5%;
+    
+    
+    }
+    
+    
+    .left-side{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        text-align: justify;
+        height: 100%;
+        
+        
+    }
+
+    .hero-pic{
+        margin-left: 5%;
+    }
+    
+    .hero-title{
+        font-size: 2rem;
+        font-family: poppins-extralight, poppins,Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        margin-bottom: 3%;
+        text-align: left;
+       
+    }
+    
+    .hero-paragrahp{
+        font-size: 0.8rem;
+        line-height: 1.875em;
+        text-align: justify;
+        margin-bottom: 10%;
+    }
+    
+    
+ 
+    .resume-btn, .github-btn{
+        font-size: 1.2rem;
+        padding: 3% 6%;
+    }
+   
+
+}
+
+@media screen and (min-width: 428px) and (max-width: 750px){
+    .hero{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        color: white;
+        margin: 8%;
+    
+    
+    }
+    
+    
+    .left-side{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        text-align: justify;
+        height: 100%;
+        
+    }
+    
+    .hero-title{
+        font-size: 1.7rem;
+        font-family: poppins-extralight, poppins,Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        margin-bottom: 3%;
+        text-align: left;
+       
+    }
+    
+    .hero-paragrahp{
+        font-size: 0.9rem;
+        line-height: 1.875em;
+        text-align: justify;
+        margin-bottom: 10%;
+    }
+    
+    
+    .right-side{
+        display: none;
+       
+        
+    }
+   
+    
+ 
+    
+    .resume-btn, .github-btn{
+        font-size: 1rem;
+        padding: 4% 8%;
+    }
+    .github-btn{
+        margin-top: 5%;
+    }
+}
+
+
+@media screen and (max-width:427px){
+    .hero{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        color: white;
+        margin: 8%;
+    
+    
+    }
+    
+    
+    .left-side{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        text-align: justify;
+        height: 100%;
+        
+    }
+    
+    .hero-title{
+        font-size: 1.6rem;
+        font-family: poppins-extralight, poppins,Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        margin-bottom: 3%;
+        text-align: left;
+       
+    }
+    
+    .hero-paragrahp{
+        font-size: 0.8rem;
+        line-height: 1.875em;
+        text-align: justify;
+        margin-bottom: 10%;
+    }
+    
+    
+    .right-side{
+        display: none;
+       
+        
+    }
+   
+    
+ 
+    .resume-btn, .github-btn{
+        font-size: 0.8rem;
+        padding: 4% 10%;
+    }
+    .github-btn{
+        margin-top: 5%;
+    }
+}

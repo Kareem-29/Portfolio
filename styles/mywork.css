@@ -1,0 +1,228 @@
+
+.myWork{
+    background-color: black;
+    padding-top: 3%;
+    color: white;
+    margin-bottom: 3%;
+    
+
+}
+
+.myWork-title{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    height: 100%;
+    padding: 5%;
+    row-gap: 15%;
+    column-gap: 3%;
+    
+}
+
+
+
+
+.projects{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    border: none;
+    background-color: #333333;
+    flex-shrink: 0;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+    border-radius: 12px;
+
+}
+
+
+
+.left-side-project{
+    border: none;
+    flex: 1;
+    height: 100%;
+    overflow: hidden;
+    
+    
+}
+
+.project-img{
+    object-fit: cover;
+    width: 100%;
+    height: inherit;
+    cursor: pointer;
+    transition: transform 0.45s ease;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px ; 
+   
+}
+
+.project-img:hover{
+    transform: scale(1.1);
+    
+}
+
+
+.right-side-project{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    padding: 5%;
+    
+    
+}
+.project-type{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9rem;
+    margin-bottom: 7%;
+}
+
+.project-name{
+    font-family: poppins-extralight, poppins,Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    text-wrap: nowrap;
+    margin-bottom: 15%;
+}
+
+
+
+.more-info{
+    padding: 5% 15%;
+    font-family: poppins-extralight, poppins,Arial, Helvetica, sans-serif;
+    background-color: #ffd04e;
+    font-size: 1rem;
+    vertical-align: top;
+    text-wrap: nowrap;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease , color 0.2s ease, transform 0.2s ease;
+    
+    
+}
+
+.more-info:hover{
+    background-color: #000;
+    color: #ffd04e;
+    border: none;
+    outline: 1px solid #ffd04e;
+}
+
+.more-info:active{
+    opacity: 0.7;
+    transform: scale(0.97);
+}
+
+@media screen and (min-width: 1020px) {
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 3%;
+    }
+}
+
+
+
+@media (min-width: 751px) and (max-width: 1019px){
+    .grid{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 10%;
+        column-gap: 5%;
+        margin-bottom: 5%;
+    }
+
+
+    .myWork-title{
+        margin-bottom: 5%;
+        margin-top: 3%;
+        font-size: 3rem;
+    }
+
+    .projects{
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+    }
+
+    .project-name{
+        font-size: 1rem;
+    }
+
+    .project-type{
+        font-size: 0.9rem;
+    }
+
+    .more-info{
+        font-size: 0.9rem;
+    }
+}
+@media (min-width: 428px) and (max-width: 750px) {
+    .grid {
+        grid-template-columns: 1fr;
+        row-gap: 4%;
+        padding: 10%;
+        margin-bottom: 8%;
+    }
+
+    .myWork-title{
+        margin-bottom: 10%;
+        margin-top: 3%;
+        font-size: 2rem;
+    }
+
+    .projects{
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    }
+    .project-name{
+        font-size: 1rem;
+    }
+
+    .project-type{
+        font-size: 0.9rem;
+    }
+    .projects:last-child{
+        margin-bottom: 3%;
+    }
+
+    .more-info{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width:427px) {
+    .grid {
+        grid-template-columns: 1fr;
+        row-gap: 4%;
+        padding: 10%;
+        margin-bottom: 5%;
+    }
+
+    .myWork-title{
+        margin-bottom: 10%;
+        margin-top: 3%;
+        font-size: 2rem;
+    }
+
+    .projects{
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    }
+    .project-name{
+        font-size: 0.9rem;
+    }
+
+    .project-type{
+        font-size: 0.8rem;
+    }
+    .projects:last-child{
+        margin-bottom: 3%;
+    }
+
+    .more-info{
+        font-size: 0.8rem;
+    }
+}
