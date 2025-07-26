@@ -148,12 +148,12 @@
     grid-template-columns: 1fr;
     row-gap: 4%;
     padding: 10%;
-    margin-bottom: 20%;
+    margin-bottom: 30%;
     margin-top: 20%;
   }
 
   .myWork-title {
-    margin-bottom: 10%;
+    margin-bottom: 8%;
     margin-top: 3%;
     font-size: 2rem;
   }
@@ -185,12 +185,12 @@
     grid-template-columns: 1fr;
     row-gap: 4%;
     padding: 10%;
-    margin-bottom: 20%;
+    margin-bottom: 30%;
     margin-top: 5%;
   }
 
   .myWork-title {
-    margin-bottom: 10%;
+    margin-bottom: 8%;
     margin-top: 3%;
     font-size: 2rem;
   }
