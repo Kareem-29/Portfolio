@@ -1,94 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/hero.css">
-    <link rel="stylesheet" href="styles/mywork.css">
-    <link rel="stylesheet" href="styles/project.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/hero.css" />
+    <link rel="stylesheet" href="styles/mywork.css" />
+    <link rel="stylesheet" href="styles/project.css" />
 
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.polyfills.min.js"></script>
-    
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Youtube Clone</title>
-    <link rel="icon" type="image/x-icon" href="imgs/favicon.png">
-</head>
-<body>
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.png" />
+  </head>
+  <body>
     <div id="websiteOverlay" class="loader websiteOverlayProject">
-        <div class="loader-icon"></div>
+      <div class="loader-icon"></div>
     </div>
     <header class="top">
-        <a href="index.html"><p class="title">Abdul-Kareem Aldhaif</p></a>
+      <a href="index.html"><p class="title">Abdul-Kareem Aldhaif</p></a>
 
-        <nav class="nav-bar">
-            <input type="checkbox" name="menu-active" id="menu-active">
+      <nav class="nav-bar">
+        <input type="checkbox" name="menu-active" id="menu-active" />
 
-            <label for="menu-active" class="open-menu-btn">
-                <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
-            </label>
+        <label for="menu-active" class="open-menu-btn">
+          <svg
+            class="menu-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            height="32px"
+            viewBox="0 -960 960 960"
+            width="32px"
+            fill="#e8eaed"
+          >
+            <path
+              d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+            />
+          </svg>
+        </label>
 
+        <label id="overlay" for="menu-active"> </label>
+        <div class="links-container">
+          <label for="menu-active" class="close-menu-btn">
+            <svg
+              class="close-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              height="32px"
+              viewBox="0 -960 960 960"
+              width="32px"
+              fill="#e8eaed"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              />
+            </svg>
+          </label>
 
-            <label id="overlay" for="menu-active">
-
-            </label>
-            <div class="links-container">
-                <label for="menu-active" class="close-menu-btn">
-                    <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
-                </label>
-
-                <a class="home-link" href="index.html">Home</a>
-                <a class="about-link" href="index.html#AboutMe">About Me</a>
-                <a class="work-link"  href="index.html#MyWork">My Work</a>
-                
-            </div>
-        </nav>
+          <a class="home-link" href="index.html">Home</a>
+          <a class="about-link" href="index.html#AboutMe">About Me</a>
+          <a class="work-link" href="index.html#MyWork">My Work</a>
+        </div>
+      </nav>
     </header>
 
-    
-    <div class="project-hero yt-page ">
-        
-        <div class="left-side-hero-project">
-            <div class="project-info">
-                <div class="type">YouTube Clone</div>
-                <div class="project-bio">A static clone of YouTube's homepage built using pure HTML and CSS. The project focuses on replicating the layout, design, and responsiveness of YouTube's front page without any functionality or backend logic.</div>
-            </div>  
-
-
-            <div class="yt-center">
-                <button class="more-info yt-btn " onclick="window.open('https://github.com/Kareem-29/youtube-clone', '_blank')" >Check It Out</button>
-            </div>
-
+    <div class="project-hero yt-page">
+      <div class="left-side-hero-project">
+        <div class="project-info">
+          <div class="type">YouTube Clone</div>
+          <div class="project-bio">
+            A static clone of YouTube's homepage built using pure HTML and CSS.
+            The project focuses on replicating the layout, design, and
+            responsiveness of YouTube's front page without any functionality or
+            backend logic.
+          </div>
         </div>
 
-        <div class="right-side-hero-project proj-pic-bg-color-yt">
-            <img class="project-pic " src="imgs/youtube-img-preview-removebg.webp" alt="youtube-preview-pic">
+        <div class="yt-center">
+          <button
+            class="more-info yt-btn"
+            onclick="window.open('https://github.com/Kareem-29/youtube-clone', '_blank')"
+          >
+            Check It Out
+          </button>
         </div>
+      </div>
+
+      <div class="right-side-hero-project proj-pic-bg-color-yt">
+        <img
+          class="project-pic"
+          src="imgs/youtube-img-preview-removebg.webp"
+          alt="youtube-preview-pic"
+        />
+      </div>
     </div>
 
-
-
-
-
     <footer class="footer">
-        <div class="container">
-            <div class="bottom">
-                <div class="name">Abdul-Kareem Aldhaif</div>
-                <div class="email">akaldhaif@gmail.com</div>
-            </div>
-
-            <div class="copyright">&copy;2024 by AbdulKareemAldhaif. </div>
+      <div class="container">
+        <div class="bottom">
+          <div class="name">Abdul-Kareem Aldhaif</div>
+          <div class="email">akaldhaif@gmail.com</div>
         </div>
+
+        <div class="copyright">&copy;2024 by AbdulKareemAldhaif.</div>
+      </div>
     </footer>
-    
-</body>
+  </body>
 </html>

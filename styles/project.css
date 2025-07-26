@@ -29,7 +29,9 @@ body {
 .yt-btn,
 .todos-btn,
 .weather-btn {
-  padding: 15% 60%;
+  padding: 10% 20%;
+  font-size: 1.3rem;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
 }
 
 .right-side-hero-project {
@@ -1041,16 +1043,18 @@ dd {
   .yt-btn,
   .todos-btn,
   .weather-btn {
-    padding: 15% 60%;
+    font-size: 1rem;
+    padding: 4% 15%;
   }
 
   .yt-center,
   .todos-center,
   .weather-center {
-    position: relative;
-    left: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     margin-top: 8%;
-    margin-bottom: 3%;
   }
 
   .right-side-hero-project {
@@ -1341,14 +1345,17 @@ dd {
   .yt-btn,
   .todos-btn,
   .weather-btn {
-    padding: 15% 60%;
+    font-size: 0.8rem;
+    padding: 4% 15%;
   }
 
   .yt-center,
   .todos-center,
   .weather-center {
-    position: relative;
-    left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     margin-top: 8%;
   }
   .project-vision-container {

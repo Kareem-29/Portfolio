@@ -142,13 +142,13 @@
 }
 @media (min-width: 428px) and (max-width: 750px) {
   #MyWork {
-    margin-bottom: 25%;
+    margin-bottom: 35%;
   }
   .grid {
     grid-template-columns: 1fr;
     row-gap: 4%;
     padding: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
     margin-top: 20%;
   }
 
@@ -179,13 +179,13 @@
 
 @media screen and (max-width: 427px) {
   #MyWork {
-    margin-bottom: 25%;
+    margin-bottom: 35%;
   }
   .grid {
     grid-template-columns: 1fr;
     row-gap: 4%;
     padding: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
     margin-top: 5%;
   }
 
