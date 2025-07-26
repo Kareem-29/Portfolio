@@ -182,11 +182,19 @@
     margin-bottom: 25%;
   }
 
+<<<<<<< HEAD
   .myWork-title {
     margin-bottom: 30%;
     margin-top: 3%;
     font-size: 2rem;
   }
+=======
+    .myWork-title{
+        margin-bottom: 8%;
+        margin-top: 8%;
+        font-size: 2rem;
+    }
+>>>>>>> 0de2458be58d155dc16afab3025273ef98c72f22
 
   .projects {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
@@ -202,7 +210,13 @@
     margin-bottom: 3%;
   }
 
+<<<<<<< HEAD
   .more-info {
     font-size: 0.8rem;
   }
+=======
+    .more-info{
+        font-size: 0.8rem;
+    }
+>>>>>>> 0de2458be58d155dc16afab3025273ef98c72f22
 }
