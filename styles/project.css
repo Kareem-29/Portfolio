@@ -38,7 +38,6 @@ body {
   margin-left: 0%;
 }
 
-<<<<<<< HEAD
 .proj-pic-bg-color-moviz,
 .proj-pic-bg-color-nutrition,
 .proj-pic-bg-color-moviz-app,
@@ -49,13 +48,6 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-=======
-.proj-pic-bg-color-moviz, .proj-pic-bg-color-nutrition, .proj-pic-bg-color-moviz-app, .proj-pic-bg-color-yt{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
->>>>>>> 0de2458be58d155dc16afab3025273ef98c72f22
 }
 
 .proj-pic-bg-color-moviz-app {
